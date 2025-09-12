@@ -19,8 +19,8 @@ export default function OrientalDAOLanding() {
         <header className="px-6 py-4">
           <nav className="flex items-center justify-between max-w-7xl mx-auto">
             <div className="flex items-center space-x-3">
-              <img src="/oriental-dao-logo.png" alt="Oriental DAO Logo" className="w-12 h-12 object-contain" />
-              <span className="text-2xl font-bold gradient-text">Oriental DAO</span>
+              <img src="/oriental-dao-logo.png" alt="Oriental DAO Logo" className="w-12 h-12 rounded-md object-contain" />
+              <span className="text-2xl font-bold ">Oriental DAO</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#about" className="text-gray-700 hover:text-primary transition-colors font-medium">
@@ -37,23 +37,8 @@ export default function OrientalDAOLanding() {
               </a>
             </div>
             <div className="flex items-center space-x-4">
-              <a
-                href="https://x.com/OrientalDA0"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-primary transition-colors"
-              >
-                <span className="text-lg">𝕏</span>
-              </a>
-              <a
-                href="https://github.com/OrientalDA0"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-primary transition-colors"
-              >
-                <span className="text-lg">⚡</span>
-              </a>
-              <Button className="!bg-gradient-to-r !from-[#f1cfae] !via-[#c86be5] !to-[#c6cef9] !text-white !border-0 hover:opacity-90 shadow-lg">
+             
+              <Button className="!bg-gradient-to-r !from-[#f1cfae] !to-[#e46be5]  text-black cursor-pointer !border-0 hover:opacity-90 shadow-lg">
                 Join DAO
               </Button>
             </div>
@@ -63,7 +48,7 @@ export default function OrientalDAOLanding() {
         {/* Hero Section */}
         <section className="px-6 py-20 text-center">
           <div className="max-w-4xl mx-auto">
-            <Badge className="mb-6 !bg-gradient-to-r !from-[#f1cfae] !via-[#c86be5] !to-[#c6cef9] !text-white !border-0 shadow-lg">
+            <Badge className="mb-6 p-4 !bg-gradient-to-r !from-[#f1cfae] !via-[#c86be5] !to-[#c6cef9] !text-white !border-0 shadow-lg">
               🚀 Web3 Community
             </Badge>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance text-gray-800">
