@@ -294,7 +294,7 @@ export default function OrientalDAOLanding() {
                 />
                 <h3 className="text-xl font-semibold">Vilash Turkane</h3>
                 <p className="text-gray-600 text-sm mb-4">
-                  Devrel, Oriental DAO
+                  Campus Lead, Oriental DAO
                 </p>
                 <div className="flex gap-4">
                   <a
