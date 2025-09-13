@@ -272,7 +272,7 @@ export default function OrientalDAOLanding() {
               height={150}
               className="w-[150px] h-[150px] object-cover rounded-md mb-4"
             />
-            <h3 className="text-xl font-semibold">Prince Raja Bunderla</h3>
+            <h3 className="text-xl font-semibold">Prince Raja Bundela</h3>
             <p className="text-gray-600 text-sm mb-4">Full Stack MERN Engineer <br />Oriental DAO </p>
             <div className="flex gap-4">
               <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
