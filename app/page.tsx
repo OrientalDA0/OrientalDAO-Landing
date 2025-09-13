@@ -659,6 +659,29 @@ export default function OrientalDAOLanding() {
                   className="w-[350px] h-[350px] object-cover rounded-md mb-4"
                 />
               </div>
+              <div className="flex mt-6 justify-around">
+                <Image
+                  src="https://pbs.twimg.com/media/GSRzVOTagAERlgz?format=jpg&name=4096x4096"
+                  alt="not found"
+                  width={350}
+                  height={350}
+                  className="w-[350px] h-[350px] object-cover rounded-md mb-4"
+                />
+                <Image
+                  src="https://pbs.twimg.com/media/GR95ftrW0AEuWVL?format=jpg&name=medium"
+                  alt="not found"
+                  width={350}
+                  height={350}
+                  className="w-[350px] h-[350px] object-cover rounded-md mb-4"
+                />
+                <Image
+                  src="https://pbs.twimg.com/media/GPjnuK1bcAAtoGI?format=jpg&name=large"
+                  alt="not found"
+                  width={350}
+                  height={350}
+                  className="w-[350px] h-[350px] object-cover rounded-md mb-4"
+                />
+              </div>
             </div>
           </div>
         </section>
