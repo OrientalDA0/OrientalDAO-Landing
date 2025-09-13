@@ -646,52 +646,52 @@ export default function OrientalDAOLanding() {
               <p className="text-xl text-gray-600 max-w-2xl mx-auto text-pretty">
                 Highlights from our recent events and community gatherings
               </p>
-              <div className="flex mt-6 justify-around">
-                <Image
-                  src="https://pbs.twimg.com/media/GPt2_e1aAAAMHl7?format=jpg&name=4096x4096"
-                  alt="not found"
-                  width={350}
-                  height={350}
-                  className="w-[350px] h-[350px] object-cover rounded-md mb-4"
-                />
-                <Image
-                  src="https://pbs.twimg.com/media/GSG5AVXaUAI5Dxv?format=jpg&name=4096x4096"
-                  alt="not found"
-                  width={350}
-                  height={350}
-                  className="w-[350px] h-[350px] object-cover rounded-md mb-4"
-                />
-                <Image
-                  src="https://pbs.twimg.com/media/GOhI6OgWIAAVolw.jpg:large"
-                  alt="not found"
-                  width={350}
-                  height={350}
-                  className="w-[350px] h-[350px] object-cover rounded-md mb-4"
-                />
-              </div>
-              <div className="flex mt-6 justify-around">
-                <Image
-                  src="https://pbs.twimg.com/media/GSRzVOTagAERlgz?format=jpg&name=4096x4096"
-                  alt="not found"
-                  width={350}
-                  height={350}
-                  className="w-[350px] h-[350px] object-cover rounded-md mb-4"
-                />
-                <Image
-                  src="https://pbs.twimg.com/media/GR95ftrW0AEuWVL?format=jpg&name=medium"
-                  alt="not found"
-                  width={350}
-                  height={350}
-                  className="w-[350px] h-[350px] object-cover rounded-md mb-4"
-                />
-                <Image
-                  src="https://pbs.twimg.com/media/GPjnuK1bcAAtoGI?format=jpg&name=large"
-                  alt="not found"
-                  width={350}
-                  height={350}
-                  className="w-[350px] h-[350px] object-cover rounded-md mb-4"
-                />
-              </div>
+            </div>
+
+            {/* Responsive grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              <Image
+                src="https://pbs.twimg.com/media/GPt2_e1aAAAMHl7?format=jpg&name=4096x4096"
+                alt="not found"
+                width={500}
+                height={500}
+                className="w-full h-72 object-cover rounded-md shadow-md"
+              />
+              <Image
+                src="https://pbs.twimg.com/media/GSG5AVXaUAI5Dxv?format=jpg&name=4096x4096"
+                alt="not found"
+                width={500}
+                height={500}
+                className="w-full h-72 object-cover rounded-md shadow-md"
+              />
+              <Image
+                src="https://pbs.twimg.com/media/GOhI6OgWIAAVolw.jpg:large"
+                alt="not found"
+                width={500}
+                height={500}
+                className="w-full h-72 object-cover rounded-md shadow-md"
+              />
+              <Image
+                src="https://pbs.twimg.com/media/GSRzVOTagAERlgz?format=jpg&name=4096x4096"
+                alt="not found"
+                width={500}
+                height={500}
+                className="w-full h-72 object-cover rounded-md shadow-md"
+              />
+              <Image
+                src="https://pbs.twimg.com/media/GR95ftrW0AEuWVL?format=jpg&name=medium"
+                alt="not found"
+                width={500}
+                height={500}
+                className="w-full h-72 object-cover rounded-md shadow-md"
+              />
+              <Image
+                src="https://pbs.twimg.com/media/GPjnuK1bcAAtoGI?format=jpg&name=large"
+                alt="not found"
+                width={500}
+                height={500}
+                className="w-full h-72 object-cover rounded-md shadow-md"
+              />
             </div>
           </div>
         </section>
