@@ -79,9 +79,15 @@ export default function OrientalDAOLanding() {
         {/* Hero Section */}
         <section className="px-6 py-4 text-center">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance text-gray-800">
-              Welcome to <span className="gradient-text">Oriental DAO</span>
-            </h1>
+         <h1
+  className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-gray-800 text-balance px-2"
+>
+  Welcome to{" "}
+  <span className="text-white px-2 py-1 rounded-lg bg-black">
+    Oriental DAO
+  </span>
+</h1>
+
             <p className="text-xl md:text-2xl text-gray-600 mb-8 text-pretty max-w-3xl mx-auto leading-relaxed">
               A decentralized autonomous organization bridging Eastern wisdom
               with Web3 innovation. Join our community of builders, creators,
