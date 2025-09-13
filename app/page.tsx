@@ -347,41 +347,31 @@ export default function OrientalDAOLanding() {
                 </div>
               </div>
 
-              {/* Prince Raja Bunderla */}
-              <div className="hover:shadow-lg transition rounded p-6 flex flex-col items-center text-center">
-                <Image
-                  src="https://pbs.twimg.com/media/GnSgc3PW4AAxfMX.jpg"
-                  alt="Prince Raja Bunderla"
-                  width={150}
-                  height={150}
-                  className="w-[150px] h-[150px] object-cover rounded-md mb-4"
-                />
-                <h3 className="text-xl font-semibold">Prince Raja Bunderla</h3>
-                <p className="text-gray-600 text-sm mb-4">
-                  Full Stack MERN Engineer <br />
-                  Oriental DAO{" "}
-                </p>
-                <div className="flex gap-4">
-                  <a
-                    href="https://x.com/"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    <SiX className="w-5 h-5 text-black dark:text-gray-300" />
-                  </a>
-                  <a
-                    href="https://linkedin.com/"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    <SiLinkedin className="w-5 h-5 text-black dark:text-gray-300" />
-                  </a>
-                  <a
-                    href="https://github.com/"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    <SiGithub className="w-5 h-5 text-black dark:text-gray-300" />
-                  </a>
-                </div>
-              </div>
+          {/* Prince Raja Bunderla */}
+          <div className="hover:shadow-lg transition rounded p-6 flex flex-col items-center text-center">
+            <Image
+              src="https://pbs.twimg.com/media/GnSgc3PW4AAxfMX.jpg"
+              alt="Prince Raja Bunderla"
+              width={150}
+              height={150}
+              className="w-[150px] h-[150px] object-cover rounded-md mb-4"
+            />
+            <h3 className="text-xl font-semibold">Prince Raja Bunderla</h3>
+            <p className="text-gray-600 text-sm mb-4">Full Stack MERN Engineer <br />Oriental DAO </p>
+            <div className="flex gap-4">
+              <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
+                <SiX className="w-5 h-5 text-black dark:text-gray-300" />
+              </a>
+              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+                <SiLinkedin className="w-5 h-5 text-black dark:text-gray-300" />
+              </a>
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <SiGithub className="w-5 h-5 text-black dark:text-gray-300" />
+              </a>
+            </div>
+          </div>
+
+        
 
               {/* Kunal Choudhary */}
               <div className="hover:shadow-lg transition rounded p-6 flex flex-col items-center text-center">
