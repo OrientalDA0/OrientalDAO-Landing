@@ -357,7 +357,7 @@ export default function OrientalDAOLanding() {
               {/* Prince Raja Bunderla */}
               <div className="hover:shadow-lg transition rounded p-6 flex flex-col items-center text-center">
                 <Image
-                  src="https://imgs.search.brave.com/bpjnejpPq59ZsuehJXbo7Oz4U2EFGqMYzt6-DNvJjMo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAyNC8w/Mi8yNi8xOS81Ny9k/b2ctODU5ODgyN182/NDAuanBn"
+                  src="https://pbs.twimg.com/media/GnSgc3PW4AAxfMX.jpg"
                   alt="Prince Raja Bunderla"
                   width={150}
                   height={150}
