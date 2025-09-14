@@ -157,7 +157,7 @@ export default function OrientalDAOLanding() {
                   <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
                     <span className="text-2xl">🪙</span>
                   </div>
-                  <CardTitle>Token Economics</CardTitle>
+                  <CardTitle>Token </CardTitle>
                   <CardDescription>
                     Fair distribution and utility-driven tokenomics for
                     sustainable growth
@@ -436,7 +436,7 @@ export default function OrientalDAOLanding() {
                 />
                 <h3 className="text-xl font-semibold">Upasna Vishwakarma</h3>
                 <p className="text-gray-600 text-sm mb-4">
-                 Event Strategist<br /> Oriental DAO
+                  Event Strategist<br /> Oriental DAO
                 </p>
                 <div className="flex gap-4">
                   <a
@@ -458,9 +458,9 @@ export default function OrientalDAOLanding() {
                     <SiGithub className="w-5 h-5 text-black dark:text-gray-300" />
                   </a>
                 </div>
-                
+
               </div>
-               {/* priyanshu kumar */}
+              {/* priyanshu kumar */}
               <div className="hover:shadow-lg transition rounded p-6 flex flex-col items-center text-center">
                 <Image
                   src="https://imgs.search.brave.com/T-DCWhwM5WaQyqCz-6XTt2WfevbfIv_A_PA9X_OJEFU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTEy/NDU2MDI3NS9waG90/by9yZXNjdWUtYW5p/bWFsLWNhdHRsZS1k/b2ctbWl4LXB1cHB5/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1LMDRWNWJfNS1J/SDh5UWI5a0tnZk41/RXNKTnMzTF8wbGJ1/WWZJLVVmMXNZPQ"
@@ -675,28 +675,28 @@ export default function OrientalDAOLanding() {
               <Card className="border-2 hover:shadow-xl transition-all duration-300 bg-white/80 backdrop-blur-sm">
                 <CardHeader>
                   <div className="flex items-center justify-between mb-4">
-                    <Badge className="!bg-gradient-to-r !from-[#f1cfae] !via-[#c86be5] !to-[#c6cef9] !text-white !border-0">
-                      Upcoming
+                    <Badge variant="outline" className="bg-gray-100">
+                      HOSTED
                     </Badge>
                     <span className="text-lg">📅</span>
                   </div>
-                  <CardTitle className="text-xl mb-2">Hackathon 2024</CardTitle>
+                  <CardTitle className="text-xl mb-2">Solana Ecosystem Call, June</CardTitle>
                   <CardDescription className="mb-4">
-                    48-hour coding marathon to build innovative Web3 solutions
-                    with prizes and mentorship opportunities.
+                    A Solana ecosystem call is a community meet-up to connect, learn, and grow around the Solana blockchain.
                   </CardDescription>
                   <div className="space-y-2 text-sm text-gray-600">
                     <div className="flex items-center">
                       <span className="mr-2">📅</span>
-                      <span>April 5-7, 2024</span>
+                      <span>june 9, 2024</span>
                     </div>
                     <div className="flex items-center">
                       <span className="mr-2">🕐</span>
-                      <span>48 Hours</span>
+                      <span>6:00 PM - 9:00 PM UTC</span>
                     </div>
                     <div className="flex items-center">
                       <span className="mr-2">📍</span>
-                      <span>Hybrid Event</span>
+                      <a href="https://www.google.com/maps/place/Hotel+Midtown/@21.811834,80.1891262,17z/data=!4m9!3m8!1s0x3a2a5bd72010607b:0x9c9f08804b6b414d!5m2!4m1!1i2!8m2!3d21.811834!4d80.1917011!16s%2Fg%2F124t4sqzh?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D" target="_blank">Hotel Midtown, Balaghat</a>
+                      
                     </div>
                   </div>
                 </CardHeader>
@@ -855,7 +855,7 @@ export default function OrientalDAOLanding() {
                       Telegram
                     </a>
                   </li>
-                   <li>
+                  <li>
                     <a
                       href="https://www.instagram.com/orientaldao"
                       className="hover:text-white transition-colors">
