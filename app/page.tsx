@@ -7,7 +7,6 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
-import { X } from "lucide-react";
 
 import { SiX, SiLinkedin, SiGithub } from "react-icons/si";
 import BlockchainsMarquee from "@/components/ui/BlockchainsMarquee";
