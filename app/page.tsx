@@ -79,14 +79,12 @@ export default function OrientalDAOLanding() {
         {/* Hero Section */}
         <section className="px-6 py-4 text-center">
           <div className="max-w-4xl mx-auto">
-         <h1
-  className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-gray-800 text-balance px-2"
->
-  Welcome to{" "}
-  <span className="text-white px-2 py-1 rounded-lg bg-black">
-    Oriental DAO
-  </span>
-</h1>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-gray-800 text-balance px-2">
+              Welcome to{" "}
+              <span className="text-white px-2 py-1 rounded-lg bg-black">
+                Oriental DAO
+              </span>
+            </h1>
 
             <p className="text-xl md:text-2xl text-gray-600 mb-8 text-pretty max-w-3xl mx-auto leading-relaxed">
               A decentralized autonomous organization bridging Eastern wisdom
@@ -213,7 +211,7 @@ export default function OrientalDAOLanding() {
               Meet Our Team
             </h2>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-10">
               {/* Mishal Turkane */}
               <div className="hover:shadow-lg transition rounded p-6 flex flex-col items-center text-center">
                 <Image
@@ -248,7 +246,6 @@ export default function OrientalDAOLanding() {
                   </a>
                 </div>
               </div>
-
               {/* Pratima Tandekar */}
               <div className="hover:shadow-lg transition rounded p-6 flex flex-col items-center text-center">
                 <Image
@@ -317,7 +314,6 @@ export default function OrientalDAOLanding() {
                   </a>
                 </div>
               </div>
-
               {/* Shivam Waghale */}
               <div className="hover:shadow-lg transition rounded p-6 flex flex-col items-center text-center">
                 <Image
@@ -327,7 +323,7 @@ export default function OrientalDAOLanding() {
                   height={150}
                   className="w-[150px] h-[150px] object-cover rounded-md mb-4"
                 />
-                <h3 className="text-xl font-semibold">Shivam Waghale</h3>
+                <h3 className="text-xl font-semibold">D Waghale</h3>
                 <p className="text-gray-600 text-sm mb-4">
                   Social Media & Strategy, <br /> Oriental DAO
                 </p>
@@ -352,7 +348,6 @@ export default function OrientalDAOLanding() {
                   </a>
                 </div>
               </div>
-
               {/* Prince Raja Bunderla */}
               <div className="hover:shadow-lg transition rounded p-6 flex flex-col items-center text-center">
                 <Image
@@ -362,7 +357,7 @@ export default function OrientalDAOLanding() {
                   height={150}
                   className="w-[150px] h-[150px] object-cover rounded-md mb-4"
                 />
-                <h3 className="text-xl font-semibold">Prince Raja Bunderla</h3>
+                <h3 className="text-xl font-semibold">Prince Bundela</h3>
                 <p className="text-gray-600 text-sm mb-4">
                   Full Stack MERN Engineer <br />
                   Oriental DAO{" "}
@@ -388,7 +383,6 @@ export default function OrientalDAOLanding() {
                   </a>
                 </div>
               </div>
-
               {/* Kunal Choudhary */}
               <div className="hover:shadow-lg transition rounded p-6 flex flex-col items-center text-center">
                 <Image
@@ -417,6 +411,74 @@ export default function OrientalDAOLanding() {
                   </a>
                   <a
                     href="https://github.com/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <SiGithub className="w-5 h-5 text-black dark:text-gray-300" />
+                  </a>
+                </div>
+              </div>
+              {/* upasana vishvkarma */}
+              <div className="hover:shadow-lg transition rounded p-6 flex flex-col items-center text-center">
+                <Image
+                  src="https://imgs.search.brave.com/_gDjcX5sh3MxRz9YcPv4R0tAj3ds0rklLDqLkwDFHxg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxOC8w/My8xOC8xOC8wNi9h/dXN0cmFsaWFuLXNo/ZXBoZXJkLTMyMzc3/MzVfNjQwLmpwZw"
+                  alt="upasana vishvkarma"
+                  width={150}
+                  height={150}
+                  className="w-[150px] h-[150px] object-cover rounded-md mb-4"
+                />
+                <h3 className="text-xl font-semibold">upasana vishvkarma</h3>
+                <p className="text-gray-600 text-sm mb-4">
+                  Founder, Oriental DAO
+                </p>
+                <div className="flex gap-4">
+                  <a
+                    href=" https://www.linkedin.com/in/upasna-vishwakarma-86669530a"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <SiX className="w-5 h-5 text-black dark:text-gray-300" />
+                  </a>
+                  <a
+                    href="https://github.com/upasnavishwakarma444"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <SiLinkedin className="w-5 h-5 text-black dark:text-gray-300" />
+                  </a>
+                  <a
+                    href=" https://x.com/UpasnaVish444"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <SiGithub className="w-5 h-5 text-black dark:text-gray-300" />
+                  </a>
+                </div>
+              </div>{" "}
+              {/* priyanshu kumar  */}
+              <div className="hover:shadow-lg transition rounded p-6 flex flex-col items-center text-center">
+                <Image
+                  src="https://imgs.search.brave.com/5vF_0-vwL-GdpJaGTkJitcyt1ZrFXvUTCe_M88Sih84/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/NDM0NjY4MzUtMDBh/NzkwN2U5ZGUxP2Zt/PWpwZyZxPTYwJnc9/MzAwMCZpeGxpYj1y/Yi00LjEuMCZpeGlk/PU0zd3hNakEzZkRC/OE1IeHpaV0Z5WTJo/OE1UbDhmR1J2WjN4/bGJud3dmSHd3Zkh4/OE1BPT0"
+                  alt="priyanshu kumar"
+                  width={150}
+                  height={150}
+                  className="w-[150px] h-[150px] object-cover rounded-md mb-4"
+                />
+                <h3 className="text-xl font-semibold">priyanshu kumar </h3>
+                <p className="text-gray-600 text-sm mb-4">
+                  Founder, Oriental DAO
+                </p>
+                <div className="flex gap-4">
+                  <a
+                    href="https://x.com/PriyanshuK78171?t=Vf4x6AhgstG5N_fpZpS1iQ&s=08"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <SiX className="w-5 h-5 text-black dark:text-gray-300" />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/priyanshu-kumar-a74888346?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <SiLinkedin className="w-5 h-5 text-black dark:text-gray-300" />
+                  </a>
+                  <a
+                    href="https://github.com/Priyanshu2077 "
                     target="_blank"
                     rel="noopener noreferrer">
                     <SiGithub className="w-5 h-5 text-black dark:text-gray-300" />
