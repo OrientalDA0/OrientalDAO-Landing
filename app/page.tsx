@@ -463,7 +463,7 @@ export default function OrientalDAOLanding() {
                {/* priyanshu kumar */}
               <div className="hover:shadow-lg transition rounded p-6 flex flex-col items-center text-center">
                 <Image
-                  src="hhttps://imgs.search.brave.com/T-DCWhwM5WaQyqCz-6XTt2WfevbfIv_A_PA9X_OJEFU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTEy/NDU2MDI3NS9waG90/by9yZXNjdWUtYW5p/bWFsLWNhdHRsZS1k/b2ctbWl4LXB1cHB5/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1LMDRWNWJfNS1J/SDh5UWI5a0tnZk41/RXNKTnMzTF8wbGJ1/WWZJLVVmMXNZPQ"
+                  src="https://imgs.search.brave.com/T-DCWhwM5WaQyqCz-6XTt2WfevbfIv_A_PA9X_OJEFU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTEy/NDU2MDI3NS9waG90/by9yZXNjdWUtYW5p/bWFsLWNhdHRsZS1k/b2ctbWl4LXB1cHB5/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1LMDRWNWJfNS1J/SDh5UWI5a0tnZk41/RXNKTnMzTF8wbGJ1/WWZJLVVmMXNZPQ"
                   alt="Kunal Choudhary"
                   width={150}
                   height={150}
