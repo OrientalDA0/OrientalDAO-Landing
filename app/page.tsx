@@ -157,7 +157,7 @@ export default function OrientalDAOLanding() {
                   <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
                     <span className="text-2xl">🪙</span>
                   </div>
-                  <CardTitle>Token Economics</CardTitle>
+                  <CardTitle>Token </CardTitle>
                   <CardDescription>
                     Fair distribution and utility-driven tokenomics for
                     sustainable growth
