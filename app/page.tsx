@@ -436,7 +436,7 @@ export default function OrientalDAOLanding() {
                 />
                 <h3 className="text-xl font-semibold">Upasna Vishwakarma</h3>
                 <p className="text-gray-600 text-sm mb-4">
-                  Graphics Designer, <br /> Oriental DAO
+                 Event Strategist<br /> Oriental DAO
                 </p>
                 <div className="flex gap-4">
                   <a
@@ -471,7 +471,7 @@ export default function OrientalDAOLanding() {
                 />
                 <h3 className="text-xl font-semibold">Priyanshu Kumar</h3>
                 <p className="text-gray-600 text-sm mb-4">
-                  Graphics Designer, <br /> Oriental DAO
+                  Event Coordinator, <br /> Oriental DAO
                 </p>
                 <div className="flex gap-4">
                   <a
