@@ -7,7 +7,6 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
-import { X } from "lucide-react";
 
 import { SiX, SiLinkedin, SiGithub } from "react-icons/si";
 import BlockchainsMarquee from "@/components/ui/BlockchainsMarquee";
@@ -79,7 +78,11 @@ export default function OrientalDAOLanding() {
         {/* Hero Section */}
         <section className="px-6 py-4 text-center">
           <div className="max-w-4xl mx-auto">
+
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-gray-800 text-balance px-2">
+            <h1
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-gray-800 text-balance px-2"
+            
               Welcome to{" "}
               <span className="text-white px-2 py-1 rounded-lg bg-black">
                 Oriental DAO
@@ -793,7 +796,7 @@ export default function OrientalDAOLanding() {
         {/* Footer */}
         <footer className="px-6 py-12 gradient-bg">
           <div className="max-w-7xl mx-auto">
-            <div className="grid md:grid-cols-4 gap-8 mb-8">
+            <div className="grid md:grid-cols-5 gap-8 mb-8">
               <div>
                 <div className="flex items-center space-x-2 mb-4">
                   <img
@@ -896,7 +899,27 @@ export default function OrientalDAOLanding() {
                   </li>
                 </ul>
               </div>
+
+              <div>
+                <h4 className="font-semibold text-white mb-4">Branding</h4>
+                <ul className="space-y-2 text-sm text-white/80">
+                  <li>
+                    {/* Link to download logo.png */}
+                    <a
+                      href="/oriental_logo.png"           // path to your image file
+                      download="logo.png"        // suggested name for downloaded file
+                      className="hover:text-white transition-colors"
+                    >
+                      Logo
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+
             </div>
+
+
 
             <div className="border-t border-white/20 pt-8 text-center">
               <p className="text-white/60 text-sm">
