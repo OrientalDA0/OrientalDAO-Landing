@@ -69,7 +69,9 @@ export default function OrientalDAOLanding() {
             </div>
             <div className="flex items-center space-x-4">
               <Button className="!bg-gradient-to-r !from-[#f1cfae] !to-[#e46be5]  text-black cursor-pointer !border-0 hover:opacity-90 shadow-lg">
-                Join DAO
+                <a href="https://github.com/OrientalDA0" target="_blank">
+                  contribute now🧑‍💻
+                </a>
               </Button>
             </div>
           </nav>
@@ -100,7 +102,9 @@ export default function OrientalDAOLanding() {
                 size="lg"
                 variant="outline"
                 className="bg-white/80 backdrop-blur-sm shadow-lg">
-                <span>Learn More</span>
+                <a href="https://chat.whatsapp.com/BQqqVLnl5PMDHRAiOh2uAN?mode=ems_copy_t">
+                  join us🚀
+                </a>
               </Button>
             </div>
           </div>
@@ -245,6 +249,7 @@ export default function OrientalDAOLanding() {
                   </a>
                 </div>
               </div>
+
               {/* Pratima Tandekar */}
               <div className="hover:shadow-lg transition rounded p-6 flex flex-col items-center text-center">
                 <Image
@@ -313,6 +318,7 @@ export default function OrientalDAOLanding() {
                   </a>
                 </div>
               </div>
+
               {/* Shivam Waghale */}
               <div className="hover:shadow-lg transition rounded p-6 flex flex-col items-center text-center">
                 <Image
@@ -322,7 +328,7 @@ export default function OrientalDAOLanding() {
                   height={150}
                   className="w-[150px] h-[150px] object-cover rounded-md mb-4"
                 />
-                <h3 className="text-xl font-semibold">D Waghale</h3>
+                <h3 className="text-xl font-semibold">Shivam Waghale</h3>
                 <p className="text-gray-600 text-sm mb-4">
                   Social Media & Strategy, <br /> Oriental DAO
                 </p>
@@ -347,6 +353,7 @@ export default function OrientalDAOLanding() {
                   </a>
                 </div>
               </div>
+
               {/* Prince Raja Bunderla */}
               <div className="hover:shadow-lg transition rounded p-6 flex flex-col items-center text-center">
                 <Image
@@ -356,7 +363,7 @@ export default function OrientalDAOLanding() {
                   height={150}
                   className="w-[150px] h-[150px] object-cover rounded-md mb-4"
                 />
-                <h3 className="text-xl font-semibold">Prince Bundela</h3>
+                <h3 className="text-xl font-semibold">Prince Raja Bunderla</h3>
                 <p className="text-gray-600 text-sm mb-4">
                   Full Stack MERN Engineer <br />
                   Oriental DAO{" "}
@@ -382,6 +389,7 @@ export default function OrientalDAOLanding() {
                   </a>
                 </div>
               </div>
+
               {/* Kunal Choudhary */}
               <div className="hover:shadow-lg transition rounded p-6 flex flex-col items-center text-center">
                 <Image
@@ -416,68 +424,70 @@ export default function OrientalDAOLanding() {
                   </a>
                 </div>
               </div>
-              {/* upasana vishvkarma */}
+
+              {/* Upasna vishwakarma */}
               <div className="hover:shadow-lg transition rounded p-6 flex flex-col items-center text-center">
                 <Image
-                  src="https://imgs.search.brave.com/_gDjcX5sh3MxRz9YcPv4R0tAj3ds0rklLDqLkwDFHxg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxOC8w/My8xOC8xOC8wNi9h/dXN0cmFsaWFuLXNo/ZXBoZXJkLTMyMzc3/MzVfNjQwLmpwZw"
-                  alt="upasana vishvkarma"
+                  src="https://preview.redd.it/seen-a-lot-of-dogesh-bhai-memes-in-hindi-subs-which-is-v0-ivm4l4v3xb7f1.png?auto=webp&s=e15c0c934460b7fd530e708b0e0498c58533627a"
+                  alt="Kunal Choudhary"
                   width={150}
                   height={150}
                   className="w-[150px] h-[150px] object-cover rounded-md mb-4"
                 />
-                <h3 className="text-xl font-semibold">upasana vishvkarma</h3>
+                <h3 className="text-xl font-semibold">Upasna Vishwakarma</h3>
                 <p className="text-gray-600 text-sm mb-4">
-                  Founder, Oriental DAO
+                  Graphics Designer, <br /> Oriental DAO
                 </p>
                 <div className="flex gap-4">
                   <a
-                    href=" https://www.linkedin.com/in/upasna-vishwakarma-86669530a"
+                    href="https://x.com/KunalCY200511?t=s37br9TecW6e2ZTvwNvlIA&s=08"
                     target="_blank"
                     rel="noopener noreferrer">
                     <SiX className="w-5 h-5 text-black dark:text-gray-300" />
                   </a>
                   <a
-                    href="https://github.com/upasnavishwakarma444"
+                    href="https://linkedin.com/"
                     target="_blank"
                     rel="noopener noreferrer">
                     <SiLinkedin className="w-5 h-5 text-black dark:text-gray-300" />
                   </a>
                   <a
-                    href=" https://x.com/UpasnaVish444"
+                    href="https://github.com/"
                     target="_blank"
                     rel="noopener noreferrer">
                     <SiGithub className="w-5 h-5 text-black dark:text-gray-300" />
                   </a>
                 </div>
-              </div>{" "}
-              {/* priyanshu kumar  */}
+                
+              </div>
+               {/* priyanshu kumar */}
               <div className="hover:shadow-lg transition rounded p-6 flex flex-col items-center text-center">
                 <Image
-                  src="https://imgs.search.brave.com/5vF_0-vwL-GdpJaGTkJitcyt1ZrFXvUTCe_M88Sih84/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/NDM0NjY4MzUtMDBh/NzkwN2U5ZGUxP2Zt/PWpwZyZxPTYwJnc9/MzAwMCZpeGxpYj1y/Yi00LjEuMCZpeGlk/PU0zd3hNakEzZkRC/OE1IeHpaV0Z5WTJo/OE1UbDhmR1J2WjN4/bGJud3dmSHd3Zkh4/OE1BPT0"
-                  alt="priyanshu kumar"
+                  src="https://preview.redd.it/seen-a-lot-of-dogesh-bhai-memes-in-hindi-subs-which-is-v0-ivm4l4v3xb7f1.png?auto=webp&s=e15c0c934460b7fd530e708b0e0498c58533627a"
+                  alt="Kunal Choudhary"
                   width={150}
                   height={150}
                   className="w-[150px] h-[150px] object-cover rounded-md mb-4"
                 />
-                <h3 className="text-xl font-semibold">priyanshu kumar </h3>
+                <h3 className="text-xl font-semibold">Priyanshu Kumar</h3>
                 <p className="text-gray-600 text-sm mb-4">
-                  Founder, Oriental DAO
+                  Graphics Designer, <br /> Oriental DAO
                 </p>
                 <div className="flex gap-4">
                   <a
-                    href="https://x.com/PriyanshuK78171?t=Vf4x6AhgstG5N_fpZpS1iQ&s=08"
+                    href="https://x.com/KunalCY200511?t=s37br9TecW6e2ZTvwNvlIA&s=08"
                     target="_blank"
                     rel="noopener noreferrer">
                     <SiX className="w-5 h-5 text-black dark:text-gray-300" />
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/priyanshu-kumar-a74888346?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    href="https://linkedin.com/"
                     target="_blank"
                     rel="noopener noreferrer">
                     <SiLinkedin className="w-5 h-5 text-black dark:text-gray-300" />
                   </a>
                   <a
-                    href="https://github.com/Priyanshu2077 "
+                    href="https://github.com/"
                     target="_blank"
                     rel="noopener noreferrer">
                     <SiGithub className="w-5 h-5 text-black dark:text-gray-300" />
@@ -792,7 +802,7 @@ export default function OrientalDAOLanding() {
         {/* Footer */}
         <footer className="px-6 py-12 gradient-bg">
           <div className="max-w-7xl mx-auto">
-            <div className="grid md:grid-cols-4 gap-8 mb-8">
+            <div className="grid md:grid-cols-5 gap-8 mb-8">
               <div>
                 <div className="flex items-center space-x-2 mb-4">
                   <img
@@ -832,12 +842,16 @@ export default function OrientalDAOLanding() {
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:text-white transition-colors">
+                    <a
+                      href="https://discord.gg/2eBebdFg"
+                      className="hover:text-white transition-colors">
                       Discord
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:text-white transition-colors">
+                    <a
+                      href="https://t.me/OrientalDAO"
+                      className="hover:text-white transition-colors">
                       Telegram
                     </a>
                   </li>
@@ -891,6 +905,21 @@ export default function OrientalDAOLanding() {
                   <li>
                     <a href="#" className="hover:text-white transition-colors">
                       Analytics
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h4 className="font-semibold text-white mb-4">Branding</h4>
+                <ul className="space-y-2 text-sm text-white/80">
+                  <li>
+                    {/* Link to download logo.png */}
+                    <a
+                      href="/oriental_logo.png" // path to your image file
+                      download="logo.png" // suggested name for downloaded file
+                      className="hover:text-white transition-colors">
+                      Logo
                     </a>
                   </li>
                 </ul>
