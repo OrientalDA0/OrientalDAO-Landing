@@ -357,7 +357,7 @@ export default function OrientalDAOLanding() {
               {/* Prince Raja Bunderla */}
               <div className="hover:shadow-lg transition rounded p-6 flex flex-col items-center text-center">
                 <Image
-                  src="https://pbs.twimg.com/media/GnSgc3PW4AAxfMX.jpg"
+                  src="https://imgs.search.brave.com/bpjnejpPq59ZsuehJXbo7Oz4U2EFGqMYzt6-DNvJjMo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAyNC8w/Mi8yNi8xOS81Ny9k/b2ctODU5ODgyN182/NDAuanBn"
                   alt="Prince Raja Bunderla"
                   width={150}
                   height={150}
@@ -428,7 +428,7 @@ export default function OrientalDAOLanding() {
               {/* Upasna vishwakarma */}
               <div className="hover:shadow-lg transition rounded p-6 flex flex-col items-center text-center">
                 <Image
-                  src="https://preview.redd.it/seen-a-lot-of-dogesh-bhai-memes-in-hindi-subs-which-is-v0-ivm4l4v3xb7f1.png?auto=webp&s=e15c0c934460b7fd530e708b0e0498c58533627a"
+                  src="https://imgs.search.brave.com/sG23ccXimR4SJ_rsY9y6X6RVDEo3ehKYE4FtVu6Q1Qk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGV4ZWxzLmNv/bS9waG90b3MvMzY4/Nzc3MC9wZXhlbHMt/cGhvdG8tMzY4Nzc3/MC5qcGVnP2F1dG89/Y29tcHJlc3MmY3M9/dGlueXNyZ2ImZHBy/PTEmdz01MDA"
                   alt="Kunal Choudhary"
                   width={150}
                   height={150}
@@ -440,19 +440,19 @@ export default function OrientalDAOLanding() {
                 </p>
                 <div className="flex gap-4">
                   <a
-                    href="https://x.com/KunalCY200511?t=s37br9TecW6e2ZTvwNvlIA&s=08"
+                    href="https://x.com/UpasnaVish444 "
                     target="_blank"
                     rel="noopener noreferrer">
                     <SiX className="w-5 h-5 text-black dark:text-gray-300" />
                   </a>
                   <a
-                    href="https://linkedin.com/"
+                    href=" https://www.linkedin.com/in/upasna-vishwakarma-86669530a"
                     target="_blank"
                     rel="noopener noreferrer">
                     <SiLinkedin className="w-5 h-5 text-black dark:text-gray-300" />
                   </a>
                   <a
-                    href="https://github.com/"
+                    href=" https://github.com/upasnavishwakarma444"
                     target="_blank"
                     rel="noopener noreferrer">
                     <SiGithub className="w-5 h-5 text-black dark:text-gray-300" />
@@ -463,7 +463,7 @@ export default function OrientalDAOLanding() {
                {/* priyanshu kumar */}
               <div className="hover:shadow-lg transition rounded p-6 flex flex-col items-center text-center">
                 <Image
-                  src="https://preview.redd.it/seen-a-lot-of-dogesh-bhai-memes-in-hindi-subs-which-is-v0-ivm4l4v3xb7f1.png?auto=webp&s=e15c0c934460b7fd530e708b0e0498c58533627a"
+                  src="https://imgs.search.brave.com/wOMh3eIjVbv5lAppZSgS6NcWVe8i4L9iMLFBAp44KAs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/c2hvcGlmeS5jb20v/cy9maWxlcy8xLzAw/ODYvMDc5NS83MDU0/L2ZpbGVzL0dvbGRl/bi1SZXRyaWV2ZXIu/anBnP3Y9MTY0NTE3/OTUyNQ"
                   alt="Kunal Choudhary"
                   width={150}
                   height={150}
@@ -475,19 +475,19 @@ export default function OrientalDAOLanding() {
                 </p>
                 <div className="flex gap-4">
                   <a
-                    href="https://x.com/KunalCY200511?t=s37br9TecW6e2ZTvwNvlIA&s=08"
+                    href="https://x.com/PriyanshuK78171?t=Vf4x6AhgstG5N_fpZpS1iQ&s=08"
                     target="_blank"
                     rel="noopener noreferrer">
                     <SiX className="w-5 h-5 text-black dark:text-gray-300" />
                   </a>
                   <a
-                    href="https://linkedin.com/"
+                    href=" https://www.linkedin.com/in/priyanshu-kumar-a74888346?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                     target="_blank"
                     rel="noopener noreferrer">
                     <SiLinkedin className="w-5 h-5 text-black dark:text-gray-300" />
                   </a>
                   <a
-                    href="https://github.com/"
+                    href="https://github.com/Priyanshu2077"
                     target="_blank"
                     rel="noopener noreferrer">
                     <SiGithub className="w-5 h-5 text-black dark:text-gray-300" />
@@ -853,6 +853,13 @@ export default function OrientalDAOLanding() {
                       href="https://t.me/OrientalDAO"
                       className="hover:text-white transition-colors">
                       Telegram
+                    </a>
+                  </li>
+                   <li>
+                    <a
+                      href="https://www.instagram.com/orientaldao"
+                      className="hover:text-white transition-colors">
+                      Instagram
                     </a>
                   </li>
                 </ul>
