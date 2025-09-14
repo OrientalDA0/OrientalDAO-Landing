@@ -45,8 +45,13 @@ export default function InfiniteImageCarousel() {
   const overlap = 24; // <- smaller number = less overlap (e.g. 8), larger number = more overlap (images closer)
 
   return (
-    <main className="flex items-center justify-center min-h-screen bg-gray-50">
-      <section className="w-full max-w-7xl px-6 py-20">
+    <main className="flex items-center justify-center min-h-screen">
+      <section className="w-full max-w-7xl px-6 py-20"><div className="text-center mb-12">
+          <h2 className="text-4xl font-bold mb-4 text-gray-800">Event Gallery</h2>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            Highlights from our recent events and community gatherings
+          </p>
+        </div>
         <div
           ref={scrollRef}
           className="flex items-center overflow-x-hidden gap-0"
