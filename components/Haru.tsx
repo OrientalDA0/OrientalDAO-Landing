@@ -1,29 +1,35 @@
 "use client";
 import Image from "next/image";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
-export default function Haru() {
+export default function InfiniteImageCarousel() {
   const scrollRef = useRef<HTMLDivElement | null>(null);
+  const [isPaused, setIsPaused] = useState(false);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   useEffect(() => {
     const scrollContainer = scrollRef.current;
+    if (!scrollContainer) return;
+
     let scrollAmount = 0;
-    const step = 1;
+    const step = 1; // px per tick (scroll speed)
+    const intervalMs = 20;
 
     const interval = setInterval(() => {
-      if (scrollContainer) {
+      if (scrollContainer && !isPaused) {
         scrollAmount += step;
         scrollContainer.scrollLeft = scrollAmount;
 
+        // reset when we've scrolled half the duplicated width
         if (scrollAmount >= scrollContainer.scrollWidth / 2) {
           scrollAmount = 0;
           scrollContainer.scrollLeft = 0;
         }
       }
-    }, 20);
+    }, intervalMs);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [isPaused]);
 
   const images: string[] = [
     "https://pbs.twimg.com/media/GPt2_e1aAAAMHl7?format=jpg&name=4096x4096",
@@ -36,30 +42,52 @@ export default function Haru() {
 
   const infiniteImages = [...images, ...images];
 
-  return (
-    <main className="flex items-center justify-center min-h-screen">
-      {/* Hosted Gallery Section */}
-      <section id="gallery" className="w-full max-w-7xl px-6 py-20">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4 text-gray-800">
-            Event Gallery
-          </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Highlights from our recent events and community gatherings
-          </p>
-        </div>
+  const overlap = 24; // <- smaller number = less overlap (e.g. 8), larger number = more overlap (images closer)
 
-        {/* Infinite scrolling row */}
-        <div ref={scrollRef} className="flex overflow-x-hidden gap-6">
+  return (
+    <main className="flex items-center justify-center min-h-screen bg-gray-50">
+      <section className="w-full max-w-7xl px-6 py-20">
+        <div
+          ref={scrollRef}
+          className="flex items-center overflow-x-hidden gap-0"
+          onMouseEnter={() => setIsPaused(true)}
+          onMouseLeave={() => {
+            setIsPaused(false);
+            setHoveredIndex(null);
+          }}
+        >
           {infiniteImages.map((src, i) => (
-            <Image
+            <div
               key={i}
-              src={src}
-              alt={`gallery image ${i}`}
-              width={500}
-              height={500}
-              className="w-[350px] h-72 object-cover rounded-md shadow-md shrink-0"
-            />
+              // negative margin to reduce gap / create overlap
+              style={{ marginLeft: i === 0 ? 0 : -overlap }}
+              onMouseEnter={() => setHoveredIndex(i)}
+              onMouseLeave={() => setHoveredIndex(null)}
+              className="shrink-0 rounded-xl shadow-md"
+            >
+              <Image
+                src={src}
+                alt={`carousel image ${i}`}
+                width={320}
+                height={200}
+                style={{
+                  width: 320,
+                  height: 200,
+                  objectFit: "cover",
+                  borderRadius: 12,
+                  // initial 70% -> on hover 100%
+                  transform: hoveredIndex === i ? "scale(1)" : "scale(0.7)",
+                  transition: "transform 300ms ease, filter 300ms ease",
+                  // blur other images when any image is hovered
+                  filter:
+                    hoveredIndex !== null && hoveredIndex !== i
+                      ? "blur(4px)"
+                      : "none",
+                  zIndex: hoveredIndex === i ? 10 : 1,
+                }}
+                className="cursor-pointer"
+              />
+            </div>
           ))}
         </div>
       </section>
