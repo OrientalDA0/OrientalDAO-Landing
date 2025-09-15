@@ -8,6 +8,7 @@ const noobUseCases = [
     description: "Naya Git repo start karna.",
     command: "git init",
   },
+  
   {
     title: "Add Remote Repo",
     description: "Local repo ko GitHub se connect karna.",
@@ -36,6 +37,14 @@ const ninjaUseCases = [
     description: "Company/Team repo ko apne system par lana.",
     command: "git clone <repo-url>",
   },
+{
+  title: "sabse pele main code apne code me lana",
+  description: "apne current code me main branch ka code lana",
+  command: `git checkout <branch-name> ||
+git fetch origin ||
+git merge origin/main`,
+},
+
   {
     title: "Pull Latest Changes",
     description: "Team ke dusre members ke changes lana.",
@@ -61,6 +70,12 @@ const ninjaUseCases = [
     description: "Approved PR ko main branch me merge karna.",
     command: "git merge feature/branch-name",
   },
+  {
+    title: "Remove the current file",
+    description: "dusre ka code but khud ke current files hatana",
+    command: "git clean -fd",
+  },
+
 ];
 
 export default function GitBootcampTables() {
